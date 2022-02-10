@@ -7,7 +7,7 @@
         {
             "type": "pwa-chrome",
             "request": "launch",
-            "name": "Open week1notes.html",
+            "name": "Open week3notes.html",
             "file": "c:\\Users\\aoliw\\Desktop\\ist--263\\lecturenote_M002\\week1notes.html"
         }
     ]
