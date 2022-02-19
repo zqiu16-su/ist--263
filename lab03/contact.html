@@ -3,6 +3,9 @@
     <head>
         <meta charset="utf-8">
         <title>Contact</title>
+        <style>
+            table, td, th {border: 1px solid black}
+        </style>
     </head>
     <body>
         <h1>Contact</h1>
@@ -18,6 +21,99 @@
         <p>
         <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2918.091996139855!2d-76.13260728468109!3d42.997397379149255!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89d9f4f5ddc368c9%3A0x36f46971483ccac3!2s211%20Lafayette%20Rd%2C%20Syracuse%2C%20NY%2013205!5e0!3m2!1sen!2sus!4v1644511407955!5m2!1sen!2sus" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>"
         </p>
+
+        <table>
+            <caption>My skills</caption>
+            <tr>
+                <th>Catagories</th>
+                <th>skills</th>
+                <th>level</th>
+            </tr>
+                <tr>
+                    <td>instrument</td>
+                    <td>playing piano</td>
+                    <td>Master</td>
+                </tr>
+
+                <tr>
+                    <td>instrument</td>
+                    <td>playing launchpad</td>
+                    <td>master</td>
+                </tr>
+
+                <tr>
+                    <td>music</td>
+                    <td>music production</td>
+                    <td>good</td>
+                </tr>
+
+                <tr>
+                    <td>music</td>
+                    <td>audio mixing</td>
+                    <td>good</td>
+                </tr>
+
+                <tr>
+                    <td>music</td>
+                    <td>singing</td>
+                    <td>master</td>
+                </tr>
+
+                <tr>
+                    <td>sports</td>
+                    <td>basketball</td>
+                    <td>master</td>
+                </tr>
+
+                <tr>
+                    <td>sports</td>
+                    <td>skiing</td>
+                    <td>master</td>
+                </tr>
+                
+                <tr>
+                    <td>sports</td>
+                    <td>sky diving</td>
+                    <td>master</td>
+                </tr>
+
+                <tr>
+                    <td>study</td>
+                    <td>information management</td>
+                    <td>master</td>
+                </tr>
+
+                <tr>
+                    <td>study</td>
+                    <td>project managing</td>
+                    <td>master</td>
+                </tr>    
+            
+
+
+        </table>
+        <h1>My Form</h1>
+        <form action="https://formspree.io/f/myyowndr" method="post">
+            <label for="fullname">Full Name</label>
+            <input type="text" name="fullname" id="fullname"><br>
+            <label for="yourskills">Your skills</label>
+            <input type="text" name="yourskills" id="yourskills"><br>
+            <label for="specialrequest">special request</label>
+            <textarea name="specialrequest" id="specialrequest"></textarea><br>
+
+            <p>Select one your best skill</p>
+            <input type="radio" id="music" name="skills">
+            <label for="music">music</label>
+            <input type="radio" id="sports" name="skills">
+            <label for="sports">sports</label>
+            <input type="radio" id="study" name="skills">
+            <label for="study">study</label>
+            <input type="radio" id="instrument" name="skills">
+            <label for="instrument">instrument</label><br>
+
+            <input type="submit" value="submit">
+
+        </form>
 
     </body>
 </html>
